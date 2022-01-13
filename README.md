@@ -34,5 +34,5 @@ Users should be able to:
 ## Author
 
 - Website - [Not available right now!](#)
-- Frontend Mentor - [@BS-Joy](hhttps://www.frontendmentor.io/profile/BS-Joy)
+- Frontend Mentor - [@BS-Joy](https://www.frontendmentor.io/profile/BS-Joy)
 - Twitter - [@badhan_samadder](https://twitter.com/badhan_samadder)
