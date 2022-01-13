@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+
+:root {
+    --Very-Dark-Magenta: hsl(300, 43%, 22%);
+    --Soft-Pink: hsl(333, 80%, 67%);
+    --DarkGrayishMagenta: hsl(303, 10%, 53%);
+    --LightGrayishMagenta: hsl(300, 24%, 96%);
+    --White: hsl(0, 0%, 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Spartan', sans-serif;
+    background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: left 0 top 0, right 0 bottom 0;
+}
+
+.container {
+    height: 590px;
+    margin: 100px 200px 20px 200px;
+    overflow: hidden;
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.intro {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.intro h1 {
+    color: var(--Very-Dark-Magenta);
+    font-size: 3rem;
+}
+
+.intro p {
+    color: var(--DarkGrayishMagenta);
+    font-weight: 500;
+}
+
+.reviews {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.review {
+    width: 400px;
+    background-color: var(--LightGrayishMagenta);
+    padding: 17px;
+    border-radius: 8px;
+    display: flex;
+    gap: 20px;
+    color: var(--Very-Dark-Magenta);
+    font-weight: 700;
+    font-size: 15px;
+}
+
+#review2 {
+    margin-left: 50px;
+}
+
+#review3 {
+    margin-left: 100px;
+}
+
+.section2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 43px;
+}
+
+.card {
+    width: 350px;
+    background-color: var(--Very-Dark-Magenta);
+    color: var(--White);
+    padding: 40px 25px;
+    border-radius: 7px;
+}
+
+#card2 {
+    position: relative;
+    top: 30px;
+}
+
+#card3 {
+    position: relative;
+    top: 60px;
+}
+
+.detail {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.detail img {
+    width: 45px;
+    border-radius: 50px;
+}
+
+.nametype {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.name {
+    font-weight: 700;
+}
+
+.type {
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--Soft-Pink);
+}
+
+.desc {
+    font-size: 13px;
+    color: var(--LightGrayishMagenta);
+    line-height: 3vh;
+}
+
+@media (max-width: 1439px) {
+
+    body {
+        background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
+        background-repeat: no-repeat;
+        background-position: right 50vw bottom 80vh, left 0vw top 32vh;
+    }
+
+    .container{
+        overflow: hidden;
+        height: auto;
+        margin: 50px 150px;
+    }
+
+    .section1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .intro {
+        text-align: center;
+    }
+
+    .reviews {
+        width: 100%;
+    }
+
+    .review {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #review2 {
+        margin-left: 0;
+    }
+    
+    #review3 {
+        margin-left: 0;
+    }
+
+    .section2 {
+        gap: 20px;
+    }
+
+    .card {
+        width: 300px;
+        padding: 20px 20px 15px 20px;
+    }
+
+    #card2 {
+        position: relative;
+        top: 0;
+    }
+    
+    #card3 {
+        position: relative;
+        top: 0;
+    }
+}
+
+@media (max-width: 768px) {
+
+    body {
+        background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
+        background-repeat: no-repeat;
+        background-position: right 25vw bottom 120vh, left 23vw top 50vh;
+    }
+
+    .container {
+        margin: 50px 80px;
+    }
+
+    .section2 {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
+
+@media (max-width: 640px) {
+    body {
+        background-image: url(images/bg-pattern-top-mobile.svg), url(images/bg-pattern-bottom-mobile.svg);
+        background-repeat: no-repeat;
+        background-position: left 0 top 0, right 0 bottom 0;
+    }
+    .container {
+        margin: 70px 30px;
+    }
+
+    .intro {
+        width: 100%;
+    }
+
+    .intro h1 {
+        font-size: 2rem;
+    }
+
+    .review {
+        display: flex;
+        flex-direction: column;
+        font-size: 13px;
+    }
+}
