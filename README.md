@@ -21,8 +21,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Click-Here!](https://github.com/BS-Joy/fm-Social-proof-section)
+- Live Site URL: [Click-Here!](https://bs-joy.github.io/fm-Social-proof-section/)
 
 
 ### Built with
@@ -33,6 +33,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)# fm-Social-proof-section
+- Website - [Not available right now!](#)
+- Frontend Mentor - [@BS-Joy](hhttps://www.frontendmentor.io/profile/BS-Joy)
+- Twitter - [@badhan_samadder](https://twitter.com/badhan_samadder)
