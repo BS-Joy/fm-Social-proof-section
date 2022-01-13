@@ -22,9 +22,8 @@ body {
 }
 
 .container {
-    height: 590px;
+    min-height: 590px;
     margin: 100px 200px 20px 200px;
-    overflow: hidden;
 }
 
 .section1 {
